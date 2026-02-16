@@ -1,5 +1,5 @@
 +++
-path = "2026/02/02/rust-debugging-survey-2026"
+path = "2026/02/23/rust-debugging-survey-2026"
 title = "Rust debugging survey 2026"
 authors = ["Jakub Beránek"]
 
@@ -24,9 +24,9 @@ We already have some [plans][debug-test-suite-gsoc] to start improving debugging
 
 **You can fill out the survey [here][survey-link].**
 
-Filling the survey should take you approximately 5 minutes, and the survey is fully anonymous. We will accept submissions until Friday, February 20th, 2026. After the survey ends, we will evaluate the results and post key insights on this blog.
+Filling the survey should take you approximately 5 minutes, and the survey is fully anonymous. We will accept submissions until Friday, March 13th, 2026. After the survey ends, we will evaluate the results and post key insights on this blog.
 
-We would like to thank [@hashcatHitman](https://github.com/hashcatHitman), who helped prepare the survey.
+We would like to thank [@hashcatHitman](https://github.com/hashcatHitman) who did a lot of great work to prepare the survey.
 
 We invite you to fill the survey, as your responses will help us improve the Rust debugging experience. Thank you!
 
