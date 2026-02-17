@@ -114,6 +114,12 @@ We are tracking the progress on these deferred items in [#4282](https://github.c
 - providing man pages for `cargo report *` commands ([#16432](https://github.com/rust-lang/cargo/pull/16432), [#16430](https://github.com/rust-lang/cargo/pull/16430))
 - removign unstable `--timings=FMT` as it is redundant with `cargo report timings` ([#16420](https://github.com/rust-lang/cargo/pull/16420))
 
+On the project goal tracking issue,
+[weihanglo](https://github.com/weihanglo)
+[posted a summary](https://github.com/rust-lang/rust-project-goals/issues/398#issuecomment-3725163795),
+remaining steps towards stabilization,
+and how people can help.
+
 <!--
 https://rust-lang.zulipchat.com/#narrow/channel/246057-t-cargo/topic/build.20analysis.20log.20format/near/563511292
 https://rust-lang.zulipchat.com/#narrow/channel/246057-t-cargo/topic/logging.20unit.20fingerprint/near/565825913
