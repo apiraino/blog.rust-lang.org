@@ -84,8 +84,8 @@ The last update ended with the idea of the top-level build operation owning all 
 That can help solve the finerprint problem,
 we just grab the lock before reading the fingerprint and we know it is good.
 This does mean two of the same build will contend for the locks.
-At least `cargo check` from rust-analyzer and `cargo test` (wrapping a `cargo build`) or `cargo clippy` contend.
-Except they will.
+At least `cargo check` from rust-analyzer and `cargo test` (wrapping a `cargo build`) or `cargo clippy` won't contend.
+Except they will in some easy to overlook but significant cases.
 For `cargo check` and `cargo clippy`, `cargo clippy` only gets unique cache entries for workspace members,
 so non-workspace members will contend for the locks.
 For `cargo check` and `cargo test`, the cache entries are unique
