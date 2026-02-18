@@ -81,7 +81,7 @@ another is that a lock needs to be held while reading the fingerprint to decide 
 Lock upgrading and downgrading has the risk of deadlocking
 
 The last update ended with the idea of the top-level build operation owning all of the locks and them being grabbed exclusively.
-That can help solve the finerprint problem,
+That can help solve the fingerprint problem,
 we just grab the lock before reading the fingerprint and we know it is good.
 This does mean two of the same build will contend for the locks.
 At least `cargo check` from rust-analyzer and `cargo test` (wrapping a `cargo build`) or `cargo clippy` won't contend.
@@ -112,7 +112,7 @@ We are tracking the progress on these deferred items in [#4282](https://github.c
 - adding `cargo report rebuild` ([#16456](https://github.com/rust-lang/cargo/pull/16456), [#16408](https://github.com/rust-lang/cargo/pull/16408), [#16448](https://github.com/rust-lang/cargo/pull/16448)) to see why rebuilds happens
 - adding `cargo report sessions` ([#16428](https://github.com/rust-lang/cargo/pull/16428)) to find the ID needed for use in `cargo report timings` and `cargo report rebuild`
 - providing man pages for `cargo report *` commands ([#16432](https://github.com/rust-lang/cargo/pull/16432), [#16430](https://github.com/rust-lang/cargo/pull/16430))
-- removign unstable `--timings=FMT` as it is redundant with `cargo report timings` ([#16420](https://github.com/rust-lang/cargo/pull/16420))
+- removing unstable `--timings=FMT` as it is redundant with `cargo report timings` ([#16420](https://github.com/rust-lang/cargo/pull/16420))
 
 On the project goal tracking issue,
 [weihanglo](https://github.com/weihanglo)
