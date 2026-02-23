@@ -26,7 +26,7 @@ We already have some [plans][debug-test-suite-gsoc] to start improving debugging
 
 Filling the survey should take you approximately 5 minutes, and the survey is fully anonymous. We will accept submissions until Friday, March 13th, 2026. After the survey ends, we will evaluate the results and post key insights on this blog.
 
-We would like to thank Sam Kellam [@hashcatHitman](https://github.com/hashcatHitman) who did a lot of great work to prepare this survey.
+We would like to thank Sam Kellam ([@hashcatHitman](https://github.com/hashcatHitman)) who did a lot of great work to prepare this survey.
 
 We invite you to fill the survey, as your responses will help us improve the Rust debugging experience. Thank you!
 
