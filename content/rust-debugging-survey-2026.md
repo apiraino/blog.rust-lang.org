@@ -31,5 +31,5 @@ We would like to thank Sam Kellam [@hashcatHitman](https://github.com/hashcatHit
 We invite you to fill the survey, as your responses will help us improve the Rust debugging experience. Thank you!
 
 [annual-survey]: https://blog.rust-lang.org/2025/02/13/2024-State-Of-Rust-Survey-results/#challenges
-[survey-link]: TODO
+[survey-link]: https://www.surveyhero.com/c/rust-debugging-survey-2026
 [debug-test-suite-gsoc]: https://github.com/rust-lang/google-summer-of-code?tab=readme-ov-file#improve-rust-compiler-debuginfo-test-suite
